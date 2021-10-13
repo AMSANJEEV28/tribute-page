@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap");
+
+html {
+  background-color: #ffffff;
+}
+#main {
+  text-align: center;
+  border-radius: 10px;
+  background-color: #ddddddd7;
+}
+header {
+  font-family: "Rajdhani", sans-serif;
+}
+#title {
+  color: rgb(36, 36, 36);
+  font-size: 40px;
+  padding-top: 30px;
+}
+#sub-title {
+  font-style: normal;
+  font-size: large;
+  animation-name: tricolor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes tricolor {
+  30% {
+    color: #d3842a;
+  }
+  60% {
+    color: rgb(202, 192, 192);
+  }
+  100% {
+    color: rgb(51, 173, 39);
+  }
+}
+#img-div {
+  background-color: #ffffff;
+  padding: 20px 0px 20px 0px;
+  margin: 10px 20px 50px 20px;
+  border-radius: 10px;
+}
+#img-caption {
+  color: rgb(83, 75, 75);
+  font-family: "Rajdhani", sans-serif;
+}
+#tribute-info {
+  color: rgb(83, 75, 75);
+  text-align: start;
+  text-align: justify;
+  margin: 50px 80px 80px 80px;
+  font-size: 20px;
+}
+h5 {
+  font-size: 22px;
+  text-decoration: underline;
+}
+ul {
+  margin: 40px 0px 40px 0px;
+}
+li {
+  margin: 20px 0px 20px 0px;
+}
+i {
+  color: rgb(65, 65, 146);
+}
+#link {
+  font-size: 24px;
+  color: rgb(83, 75, 75);
+}
+@media (max-width: 1000px) {
+  #img-div {
+    background-position: center;
+  }
+  #title {
+    font-size: 30px;
+  }
+  #tribute-info {
+    font-size: 15px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  #link {
+    font-size: 18px;
+    text-align: center;
+    padding: 30px;
+  }
+  html {
+    margin: 0px 10px 0px 10px;
+  }
+}
+@media (max-width: 1800px) {
+  #img-div {
+    background-position: center;
+  }
+  #title {
+    font-size: 40px;
+  }
+  #tribute-info {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 22px;
+  }
+  #link {
+    font-size: 24px;
+    text-align: center;
+    padding: 30px;
+  }
+  html {
+    margin: 0px 10px 0px 10px;
+  }
+}
